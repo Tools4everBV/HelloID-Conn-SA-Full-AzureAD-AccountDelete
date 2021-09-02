@@ -3,7 +3,7 @@
 ## Description
 This HelloID Service Automation Delegated Form can delete disabled Azure users. The following options are available:
  1. Search and select the target user
- 3. After confirmation the user is disabled
+ 3. After confirmation the user is deleted
 
 <!-- Requirements -->
 ## Requirements
