@@ -1,0 +1,53 @@
+[
+    {
+        "key":  "grid",
+        "templateOptions":  {
+                                "label":  "Select user account",
+                                "required":  true,
+                                "grid":  {
+                                             "columns":  [
+                                                             {
+                                                                 "headerName":  "Display Name",
+                                                                 "field":  "displayName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "User Principal Name",
+                                                                 "field":  "UserPrincipalName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Account Enabled",
+                                                                 "field":  "accountEnabled"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Title",
+                                                                 "field":  "Title"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Department",
+                                                                 "field":  "department"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Company",
+                                                                 "field":  "Company"
+                                                             }
+                                                         ],
+                                             "height":  300,
+                                             "rowSelection":  "single"
+                                         },
+                                "dataSourceConfig":  {
+                                                         "dataSourceGuid":  "$dataSourceGuid_0",
+                                                         "input":  {
+                                                                       "propertyInputs":  [
+
+                                                                                          ]
+                                                                   }
+                                                     },
+                                "useFilter":  true
+                            },
+        "type":  "grid",
+        "summaryVisibility":  "Show",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true,
+        "requiresDataSource":  true
+    }
+]
