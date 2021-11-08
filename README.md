@@ -1,9 +1,14 @@
-
 <!-- Description -->
 ## Description
 This HelloID Service Automation Delegated Form can delete disabled Azure users. The following options are available:
  1. Search and select the target user
  3. After confirmation the user is deleted
+
+## Versioning
+| Version | Description | Date |
+| - | - | - |
+| 1.0.1   | Added version number and updated all-in-one script | 2021/11/08  |
+| 1.0.0   | Initial release | 2021/09/02  |
 
 <!-- Requirements -->
 ## Requirements
@@ -102,6 +107,8 @@ This Delegated Form uses the following resources in order to run
 
 ### Delegated form task 'azure-ad-account-remove-inactive-account'
 
-# HelloID Docs
-The official HelloID documentation can be found at: https://docs.helloid.com/
+## Getting help
+_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/214-helloid-sa-azure-ad-remove-inactive-user)_
 
+## HelloID Docs
+The official HelloID documentation can be found at: https://docs.helloid.com/
