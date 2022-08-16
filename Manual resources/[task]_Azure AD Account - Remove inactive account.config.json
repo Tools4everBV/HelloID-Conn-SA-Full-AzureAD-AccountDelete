@@ -1,0 +1,4 @@
+{
+    "name":  "Azure AD Account - Remove inactive account",
+    "runInCloud":  false
+}
